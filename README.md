@@ -20,6 +20,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 4 | Reverse Array | Arrays | 30 min | 2 | ✅ Solved |
 | 5 | Left Rotate Array by One | Arrays | 1 hr 20 min | 4 | ✅ Solved |
 | 6 | Move Zeroes | Arrays | 3 hrs | 6 | ✅ Solved |
+| 7	| Rotate Array by K	| Arrays	| 2 hrs	| 8	| ✅ Solved |
 
 ---
 
@@ -33,3 +34,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Reverse Array | Difficulty understanding how swapping works without losing data. | Learned in-place swapping using a temporary variable and gained confidence with index manipulation. |
 | Left Rotate Array by One | Confused about shifting elements, temporary storage, and array indexing. | Learned how to shift array elements correctly, preserve values using a temporary variable, and perform in-place rotation. |
 | Move Zeroes | Mixed up indices with values, struggled with swapping logic, nested loops, `break`, and encountered **Time Limit Exceeded (TLE)**. | Learned the difference between indices and values, improved debugging skills, understood swapping thoroughly, and realized why brute-force approaches can fail due to time complexity. |
+| Rotate Array by K | Initially struggled to understand the reverse approach, confused indices with slices, and had never used helper functions before. Faced issues with index ranges (k-1, n-1), in-place modification, and implementing the reverse logic correctly. |Learned the optimal Reverse Algorithm for array rotation, understood helper (nested) functions, strengthened two-pointer concepts, practiced in-place array manipulation, learned why k = k % n is required, and improved debugging by fixing logic instead of relying on brute force. |
