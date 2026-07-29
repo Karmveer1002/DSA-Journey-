@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 8
+- Problems Solved:9 
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -22,6 +22,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 6 | Move Zeroes | Arrays | 3 hrs | 6 | ✅ Solved |
 | 7	| Rotate Array by K	| Arrays	| 2 hrs	| 8	| ✅ Solved |
 | 8 | Leaders in an Array | Arrays | 1 hr | 5 | ✅ Solved |
+| 9 | Maximum Subarray Sum (Kadane's Algorithm) | Arrays | 1hr | 3 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -36,3 +37,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Move Zeroes | Mixed up indices with values, struggled with swapping logic, nested loops, `break`, and encountered **Time Limit Exceeded (TLE)**. | Learned the difference between indices and values, improved debugging skills, understood swapping thoroughly, and realized why brute-force approaches can fail due to time complexity. |
 | Rotate Array by K | Initially struggled to understand the reverse approach, confused indices with slices, and had never used helper functions before. Faced issues with index ranges (k-1, n-1), in-place modification, and implementing the reverse logic correctly. | Learned the optimal Reverse Algorithm for array rotation, understood helper (nested) functions, strengthened two-pointer concepts, practiced in-place array manipulation, learned why k = k % n is required, and improved debugging by fixing logic instead of relying on brute force. |
 | Leaders in an Array | Initially confused about traversing from right to left, range() syntax with a negative step, difference between index and value (nums[i]), list operations (append, reverse), and indentation. Also reset current_max inside the loop by mistake and overwrote the leaders list instead of adding to it. | Learned the optimal O(n) approach using right-to-left traversal, maintaining a running maximum, correctly using append() and reverse(), and debugging logical errors caused by loop placement and Python syntax. |
+| Maximum Subarray Sum (Kadane's Algorithm) | Initially tried using `sum()`, got confused about the `range()` start index, mixed up updating `curr_sum` and `max_sum`, added unnecessary conditions, and faced indentation errors while implementing the algorithm. | Learned Kadane's Algorithm from first principles: maintain `current_sum` and `maximum_sum`, decide at each element whether to continue the current subarray or start a new one, initialize both with the first element, iterate from index `1`, and achieve the optimal `O(n)` solution. |
