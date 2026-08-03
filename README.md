@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:10
+- Problems Solved:11
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -24,6 +24,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 8 | Leaders in an Array | Arrays | 1 hr | 5 | ✅ Solved |
 | 9 | Maximum Subarray Sum (Kadane's Algorithm) | Arrays | 1hr | 3 | ✅ Solved |
 | 10 | Next Permutation | Arrays | 1 hr | 4 | ✅ Solved |
+| 11 | Two Sum | Arrays, Hashing | 25 min | 3 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -40,3 +41,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Leaders in an Array | Initially confused about traversing from right to left, range() syntax with a negative step, difference between index and value (nums[i]), list operations (append, reverse), and indentation. Also reset current_max inside the loop by mistake and overwrote the leaders list instead of adding to it. | Learned the optimal O(n) approach using right-to-left traversal, maintaining a running maximum, correctly using append() and reverse(), and debugging logical errors caused by loop placement and Python syntax. |
 | Maximum Subarray Sum (Kadane's Algorithm) | Initially tried using `sum()`, got confused about the `range()` start index, mixed up updating `curr_sum` and `max_sum`, added unnecessary conditions, and faced indentation errors while implementing the algorithm. | Learned Kadane's Algorithm from first principles: maintain `current_sum` and `maximum_sum`, decide at each element whether to continue the current subarray or start a new one, initialize both with the first element, iterate from index `1`, and achieve the optimal `O(n)` solution. |
 | Next Permutation | Initially struggled with understanding lexicographical order, pivot identification, and implementing the algorithm correctly. Faced issues with Python syntax (`=` vs `==`), in-place swapping, and reversing only the suffix. | Learned how to derive the Next Permutation algorithm from scratch, identify the pivot using right-to-left traversal, find the next greater element, perform in-place swapping, reverse only the suffix, and debug Python implementation errors effectively. |
+| Two Sum | Initially thought of checking adjacent elements and using brute force. Struggled with understanding when to store elements in the HashMap, dictionary membership checking (`in`), loop boundaries, and Python syntax while implementing the solution. | Learned to optimize the brute-force approach from `O(n²)` to `O(n)` using a HashMap. Understood the concept of storing `value → index`, finding the complement using `target - nums[i]`, checking if it already exists in the HashMap, and returning the indices when found. Also improved confidence in implementing HashMap-based solutions in Python. |
