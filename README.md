@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:13
+- Problems Solved:14
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -27,6 +27,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 11 | Two Sum | Arrays, Hashing | 25 min | 3 | ✅ Solved |
 | 12 | Container With Most Water | Two Pointers | 30 min | 3 | ✅ Solved |
 | 13 | Best Time to Buy and Sell Stock | Arrays | 15 min | 1 | ✅ Solved |
+| 14 | Majority Element | Arrays, Hashing, Boyer-Moore Voting Algorithm | 55 min | 5 | ✅ Solved (HashMap + Boyer-Moore) |
 ---
 
 🧠 Learning Journal
@@ -46,3 +47,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Two Sum | Initially thought of checking adjacent elements and using brute force. Struggled with understanding when to store elements in the HashMap, dictionary membership checking (`in`), loop boundaries, and Python syntax while implementing the solution. | Learned to optimize the brute-force approach from `O(n²)` to `O(n)` using a HashMap. Understood the concept of storing `value → index`, finding the complement using `target - nums[i]`, checking if it already exists in the HashMap, and returning the indices when found. Also improved confidence in implementing HashMap-based solutions in Python. |
 | Container With Most Water | Initially thought both pointers should move together and was confused about updating the maximum area. Also mixed up indices with heights while calculating the area. | Learned the Two Pointer approach by understanding that the area is determined by the minimum of the two heights and the distance between them. Understood why only the pointer with the smaller height should move, how to update the maximum area using `max()`, and the importance of using heights instead of indices in the area calculation. |
 | Best Time to Buy and Sell Stock | Initially tried thinking about the largest selling price instead of tracking the minimum buying price. Also made a loop boundary mistake by skipping the last element. | Learned the optimal O(n) approach by maintaining the minimum price seen so far and calculating the profit for each day. Understood how to update the maximum profit using `max(max_profit, profit)` and why every element, including the last one, must be traversed. |
+| Majority Element | Initially understood the brute-force idea but struggled to implement the HashMap approach by confusing a single count variable with per-element frequencies. Later found Boyer-Moore Voting Algorithm confusing, especially the candidate update when `count == 0` and why `elif` is required instead of another `if`. | Learned two optimal approaches. First, the HashMap solution by storing `value → count` and returning the element once its frequency exceeds `n/2`. Then understood the Boyer-Moore Voting Algorithm by maintaining only a `candidate` and a `count`, where different elements cancel each other out. Also learned why Boyer-Moore returns a candidate that should be verified with a second pass if a majority element is not guaranteed to exist. |
