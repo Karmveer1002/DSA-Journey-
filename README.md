@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:12
+- Problems Solved:13
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -26,6 +26,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 10 | Next Permutation | Arrays | 1 hr | 4 | ✅ Solved |
 | 11 | Two Sum | Arrays, Hashing | 25 min | 3 | ✅ Solved |
 | 12 | Container With Most Water | Two Pointers | 30 min | 3 | ✅ Solved |
+| 13 | Best Time to Buy and Sell Stock | Arrays | 15 min | 1 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -44,3 +45,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Next Permutation | Initially struggled with understanding lexicographical order, pivot identification, and implementing the algorithm correctly. Faced issues with Python syntax (`=` vs `==`), in-place swapping, and reversing only the suffix. | Learned how to derive the Next Permutation algorithm from scratch, identify the pivot using right-to-left traversal, find the next greater element, perform in-place swapping, reverse only the suffix, and debug Python implementation errors effectively. |
 | Two Sum | Initially thought of checking adjacent elements and using brute force. Struggled with understanding when to store elements in the HashMap, dictionary membership checking (`in`), loop boundaries, and Python syntax while implementing the solution. | Learned to optimize the brute-force approach from `O(n²)` to `O(n)` using a HashMap. Understood the concept of storing `value → index`, finding the complement using `target - nums[i]`, checking if it already exists in the HashMap, and returning the indices when found. Also improved confidence in implementing HashMap-based solutions in Python. |
 | Container With Most Water | Initially thought both pointers should move together and was confused about updating the maximum area. Also mixed up indices with heights while calculating the area. | Learned the Two Pointer approach by understanding that the area is determined by the minimum of the two heights and the distance between them. Understood why only the pointer with the smaller height should move, how to update the maximum area using `max()`, and the importance of using heights instead of indices in the area calculation. |
+| Best Time to Buy and Sell Stock | Initially tried thinking about the largest selling price instead of tracking the minimum buying price. Also made a loop boundary mistake by skipping the last element. | Learned the optimal O(n) approach by maintaining the minimum price seen so far and calculating the profit for each day. Understood how to update the maximum profit using `max(max_profit, profit)` and why every element, including the last one, must be traversed. |
