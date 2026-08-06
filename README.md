@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:14
+- Problems Solved:15
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
