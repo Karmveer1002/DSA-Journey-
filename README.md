@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:15
+- Problems Solved:16
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -29,6 +29,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 13 | Best Time to Buy and Sell Stock | Arrays | 15 min | 1 | ✅ Solved |
 | 14 | Majority Element | Arrays, Hashing, Boyer-Moore Voting Algorithm | 55 min | 5 | ✅ Solved (HashMap + Boyer-Moore) |
 | 15 | Longest Consecutive Sequence | Arrays, HashSet | 35 min | 4 | ✅ Solved |
+| 16 | Set Matrix Zeroes | Matrix, Hashing, In-Place Marking | 1 hrs | 5 | ✅ Solved (Brute Force + Optimal) |
 ---
 
 🧠 Learning Journal
@@ -50,3 +51,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Best Time to Buy and Sell Stock | Initially tried thinking about the largest selling price instead of tracking the minimum buying price. Also made a loop boundary mistake by skipping the last element. | Learned the optimal O(n) approach by maintaining the minimum price seen so far and calculating the profit for each day. Understood how to update the maximum profit using `max(max_profit, profit)` and why every element, including the last one, must be traversed. |
 | Majority Element | Initially understood the brute-force idea but struggled to implement the HashMap approach by confusing a single count variable with per-element frequencies. Later found Boyer-Moore Voting Algorithm confusing, especially the candidate update when `count == 0` and why `elif` is required instead of another `if`. | Learned two optimal approaches. First, the HashMap solution by storing `value → count` and returning the element once its frequency exceeds `n/2`. Then understood the Boyer-Moore Voting Algorithm by maintaining only a `candidate` and a `count`, where different elements cancel each other out. Also learned why Boyer-Moore returns a candidate that should be verified with a second pass if a majority element is not guaranteed to exist. |
 | Longest Consecutive Sequence | Initially tried using indices instead of actual numbers, was confused about when to start a sequence, and made indentation mistakes with the `while` loop. Also took time to understand why sequences should only start when `num - 1` is not present in the HashSet. | Learned to optimize the solution from a repeated traversal approach to an O(n) solution using a HashSet. Understood how HashSet provides O(1) lookups, why duplicate elements are automatically removed, and why checking `num - 1` prevents counting the same sequence multiple times. Also learned to expand a sequence using `while curr + 1 in hashset` and update the maximum sequence length correctly. |
+| Set Matrix Zeroes | Initially struggled to understand why the matrix could not be modified immediately after finding a zero. Found it difficult to distinguish between traversing, storing, and marking, and was confused about implementing two separate passes. Later faced challenges understanding the optimal approach, especially how the first row and first column could act as markers, why the `(0,0)` cell creates ambiguity, the purpose of the `col0` variable, and why the second traversal must be performed in reverse while skipping the first column. Also encountered implementation bugs related to marker updates, reverse traversal, and handling the first column correctly. | Learned three approaches to solve the problem. First understood the brute-force method using two HashSets to store rows and columns containing original zeros, followed by a second traversal to update the matrix. Then learned the optimal O(1) space approach by reusing the first row and first column as marker arrays instead of extra sets. Understood how row markers are stored in `matrix[i][0]`, column markers in `matrix[0][j]`, why an additional `col0` variable is required because `(0,0)` cannot represent both the first row and first column simultaneously, and why the matrix must be traversed in reverse during the second pass to preserve markers until they are used. Successfully implemented and debugged both approaches while improving understanding of in-place matrix modification techniques. |
