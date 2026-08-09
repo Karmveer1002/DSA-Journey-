@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:17
+- Problems Solved:18
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -30,7 +30,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 14 | Majority Element | Arrays, Hashing, Boyer-Moore Voting Algorithm | 55 min | 5 | ✅ Solved (HashMap + Boyer-Moore) |
 | 15 | Longest Consecutive Sequence | Arrays, HashSet | 35 min | 4 | ✅ Solved |
 | 16 | Set Matrix Zeroes | Matrix, Hashing, In-Place Marking | 1 hrs | 5 | ✅ Solved (Brute Force + Optimal) |
-| 17 | Pascal's Triangle I | Mathematics, Combinatorics | 30 min | 4 | ✅ Solved |
+| 17 | Pascal's Triangle I | Mathematics, Combinatorics | 30 min | 3 | ✅ Solved |
+| 18 | Merge Overlapping Subintervals | Arrays, Sorting, Greedy | 25 min | 1 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -54,3 +55,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Longest Consecutive Sequence | Initially tried using indices instead of actual numbers, was confused about when to start a sequence, and made indentation mistakes with the `while` loop. Also took time to understand why sequences should only start when `num - 1` is not present in the HashSet. | Learned to optimize the solution from a repeated traversal approach to an O(n) solution using a HashSet. Understood how HashSet provides O(1) lookups, why duplicate elements are automatically removed, and why checking `num - 1` prevents counting the same sequence multiple times. Also learned to expand a sequence using `while curr + 1 in hashset` and update the maximum sequence length correctly. |
 | Set Matrix Zeroes | Initially struggled to understand why the matrix could not be modified immediately after finding a zero. Found it difficult to distinguish between traversing, storing, and marking, and was confused about implementing two separate passes. Later faced challenges understanding the optimal approach, especially how the first row and first column could act as markers, why the `(0,0)` cell creates ambiguity, the purpose of the `col0` variable, and why the second traversal must be performed in reverse while skipping the first column. Also encountered implementation bugs related to marker updates, reverse traversal, and handling the first column correctly. | Learned three approaches to solve the problem. First understood the brute-force method using two HashSets to store rows and columns containing original zeros, followed by a second traversal to update the matrix. Then learned the optimal O(1) space approach by reusing the first row and first column as marker arrays instead of extra sets. Understood how row markers are stored in `matrix[i][0]`, column markers in `matrix[0][j]`, why an additional `col0` variable is required because `(0,0)` cannot represent both the first row and first column simultaneously, and why the matrix must be traversed in reverse during the second pass to preserve markers until they are used. Successfully implemented and debugged both approaches while improving understanding of in-place matrix modification techniques. |
 | Pascal's Triangle I | Initially confused this problem with generating the complete Pascal's Triangle. Took time to understand that this problem only asks for the value at a specific row and column. Learned how the 1-based `(r, c)` position maps to the combination `C(r-1, c-1)` and initially struggled with deriving the combination calculation in code. | Learned to convert the Pascal Triangle position `(r, c)` into `n = r - 1` and `k = c - 1`, then calculate the binomial coefficient without explicitly calculating factorials. Used an iterative approach with `result = result * (n-i) // (i+1)`. This gives the required element using O(c) time and O(1) extra space. |
+| Merge Overlapping Subintervals | Initially confused about how to identify overlapping intervals and how to update the ending value after merging. Learned why sorting is necessary before processing the intervals and initially made mistakes when deciding which ending value to keep when one interval was completely contained inside another. | Learned to first sort the intervals by their starting values and then process them from left to right. Used the condition `next_start <= current_end` to identify overlapping intervals. When intervals overlap, the starting point remains the same and the ending point is updated using `max(current_end, next_end)`. When there is no overlap, the current interval is added to the answer and the next interval becomes the current interval. Finally, the last current interval is added to the result. |
