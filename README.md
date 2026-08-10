@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:19
+- Problems Solved:20
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -33,6 +33,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 17 | Pascal's Triangle I | Mathematics, Combinatorics | 30 min | 3 | ✅ Solved |
 | 18 | Merge Overlapping Subintervals | Arrays, Sorting, Greedy | 25 min | 1 | ✅ Solved |
 | 19 | Merge Two Sorted Arrays Without Extra Space | Arrays, Two Pointers, Gap Method | 30 min | 3 | ✅ Solved |
+| 20 | Check if Array Is Sorted | Arrays, Traversal | 5 min | 1 | ✅ Solved (2 Approaches) |
 ---
 
 🧠 Learning Journal
@@ -58,3 +59,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Pascal's Triangle I | Initially confused this problem with generating the complete Pascal's Triangle. Took time to understand that this problem only asks for the value at a specific row and column. Learned how the 1-based `(r, c)` position maps to the combination `C(r-1, c-1)` and initially struggled with deriving the combination calculation in code. | Learned to convert the Pascal Triangle position `(r, c)` into `n = r - 1` and `k = c - 1`, then calculate the binomial coefficient without explicitly calculating factorials. Used an iterative approach with `result = result * (n-i) // (i+1)`. This gives the required element using O(c) time and O(1) extra space. |
 | Merge Overlapping Subintervals | Initially confused about how to identify overlapping intervals and how to update the ending value after merging. Learned why sorting is necessary before processing the intervals and initially made mistakes when deciding which ending value to keep when one interval was completely contained inside another. | Learned to first sort the intervals by their starting values and then process them from left to right. Used the condition `next_start <= current_end` to identify overlapping intervals. When intervals overlap, the starting point remains the same and the ending point is updated using `max(current_end, next_end)`. When there is no overlap, the current interval is added to the answer and the next interval becomes the current interval. Finally, the last current interval is added to the result. |
 | Merge Two Sorted Arrays Without Extra Space | Initially found the problem confusing because both arrays had to be merged without creating a third array. I first thought of combining both arrays and sorting them, but that would use extra space. I then learned how the Gap Method treats both arrays as one virtual sorted array and compares elements that are a fixed gap apart. | Learned the Gap Method for in-place merging. The gap starts at ceil((n+m)/2) and is repeatedly reduced until it becomes 1. Depending on the virtual positions, elements are compared within nums1, between nums1 and nums2, or within nums2. If the left element is larger, the two elements are swapped. This allows both arrays to become sorted without using an extra array. |
+| Check if Array Is Sorted | Tried two different approaches. First used Python's built-in `sorted()` function to create a sorted copy and compare it with the original array. Then implemented the optimal traversal approach by comparing every element with its next element. | Learned that `nums == sorted(nums)` is simple and works, but it creates a new sorted array and therefore uses extra space and O(n log n) time. The optimal approach checks adjacent elements using `nums[i] > nums[i+1]`. If any pair is out of order, return False; otherwise return True. This reduces the complexity to O(n) time and O(1) extra space. |
