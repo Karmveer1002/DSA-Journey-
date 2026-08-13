@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:22
+- Problems Solved:23
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -36,6 +36,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 20 | Check if Array Is Sorted | Arrays, Traversal | 5 min | 1 | ✅ Solved (2 Approaches) |
 | 21 | Remove Duplicates from Sorted Array | Arrays, Two Pointers | 5 min | 1 | ✅ Solved |
 | 22 | Union of Two Sorted Arrays | Arrays, Hashing, Two Pointers | 15 min | 1 | ✅ Solved (2 Approaches) |
+| 22 | Max Consecutive Ones | Arrays, Traversal | 5 min | 1 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -64,3 +65,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Check if Array Is Sorted | Tried two different approaches. First used Python's built-in `sorted()` function to create a sorted copy and compare it with the original array. Then implemented the optimal traversal approach by comparing every element with its next element. | Learned that `nums == sorted(nums)` is simple and works, but it creates a new sorted array and therefore uses extra space and O(n log n) time. The optimal approach checks adjacent elements using `nums[i] > nums[i+1]`. If any pair is out of order, return False; otherwise return True. This reduces the complexity to O(n) time and O(1) extra space. |
 | Remove Duplicates from Sorted Array | Initially thought of using a HashSet to remove duplicates, but since the array is already sorted, extra space is unnecessary. Learned how two pointers can be used to keep track of unique elements while traversing the array. | Used the two-pointer approach where `j` traverses the array and `i` keeps track of the position of the last unique element. Whenever `nums[i] != nums[j]`, `i` is incremented and the new unique element is placed at `nums[i]`. The final count of unique elements is `i + 1`. |
 | Union of Two Sorted Arrays | Tried two approaches. First used a HashSet to easily remove duplicates and form the union. Then learned the optimal two-pointer approach by taking advantage of the fact that both arrays are already sorted. The main challenge was understanding how to handle equal elements so that each value appears only once. | Learned that a HashSet provides a simple solution by combining both sets and sorting the result. Also learned the two-pointer approach where `i` and `j` traverse the two sorted arrays. The smaller element is selected, equal elements are added only once and both pointers are moved, and duplicates already present in the answer are skipped. |
+| Max Consecutive Ones | Initially focused on counting consecutive `1`s and understanding when the current count should reset. Learned that when a `0` appears, the current streak ends and the count must be reset. | Used a simple traversal approach with two variables: `count` stores the current streak of consecutive `1`s, while `max_count` stores the longest streak found so far. For every `1`, increment `count` and update `max_count`. For every `0`, reset `count` to zero. A final maximum is maintained automatically during traversal. |
