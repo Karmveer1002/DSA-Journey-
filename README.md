@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:24
+- Problems Solved:25
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -39,6 +39,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 22 | Max Consecutive Ones | Arrays, Traversal | 5 min | 1 | ✅ Solved |
 | 23 | Sort an Array of 0s, 1s and 2s | Arrays, Two Pointers, Dutch National Flag | 10 min | 1 | ✅ Solved (2 Approaches) |
 | 24 | 3 Sum | Arrays, Sorting, Two Pointers | 20 min | 3 | ✅ Solved |
+| 25 | Rearrange Array Elements by Sign | Arrays, Two Pointers | 15 min | 2 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -70,3 +71,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Max Consecutive Ones | Initially focused on counting consecutive `1`s and understanding when the current count should reset. Learned that when a `0` appears, the current streak ends and the count must be reset. | Used a simple traversal approach with two variables: `count` stores the current streak of consecutive `1`s, while `max_count` stores the longest streak found so far. For every `1`, increment `count` and update `max_count`. For every `0`, reset `count` to zero. A final maximum is maintained automatically during traversal. |
 | Sort an Array of 0s, 1s and 2s | Initially solved the problem using Python's built-in `nums.sort()` method. Then learned the optimal Dutch National Flag approach to sort the array in linear time without using extra space. | First approach used `nums.sort()`, which is simple but takes O(n log n) time. The optimal approach uses three pointers: `low`, `mid`, and `high`. `0` is moved to the left, `1` remains in the middle, and `2` is moved to the right. When `2` is swapped with `high`, `mid` is not incremented because the newly swapped element still needs to be checked. |
 | 3 Sum | Initially tried to build the solution using nested logic and got confused about duplicate handling, pointer movement, and where to place the return statement. Learned the standard sorted-array + two-pointer approach. | First sort the array, then fix one element using `i` and use two pointers `j` and `k` to find the remaining two elements whose sum completes the triplet to zero. If the sum is negative, move `j` forward; if positive, move `k` backward; if zero, store the triplet and move both pointers. Learned to skip duplicates for `i`, `j`, and `k` so that only unique triplets are returned. |
+| Rearrange Array Elements by Sign | Initially focused on how to place positive and negative elements at alternating positions. Learned that when the number of positive and negative elements is equal, we can directly maintain separate positions for both signs. | Used two pointers/index positions: `positive_index` starts at 0 and moves by 2, while `negative_index` starts at 1 and also moves by 2. Positive elements are placed at even indices and negative elements at odd indices, producing the required alternating arrangement. |
