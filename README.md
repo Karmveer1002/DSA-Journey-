@@ -3,10 +3,10 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 27
-- Current Topic: Arrays
+- Problems Solved: 28
+- Current Topic: String
 - Language: Python
-- Platform: LeetCode + Striver A2Z
+- Platform: Striver A2Z
 - Goal: 200+ Problems
 
  
@@ -42,6 +42,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 25 | Rearrange Array Elements by Sign | Arrays, Two Pointers | 15 min | 2 | ✅ Solved |
 | 26 | Longest Subarray with Sum 0 | Arrays, Prefix Sum, HashMap | 20 min | 3 | ✅ Solved |
 | 27 | Find Missing and Repeating Numbers | Arrays, Hashing, Frequency Array | 20 min | 4 | ✅ Solved |
+| 28 | Reverse Words in a String | Strings, Split, Reverse, Join | 10 min | 1 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -76,3 +77,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Rearrange Array Elements by Sign | Initially focused on how to place positive and negative elements at alternating positions. Learned that when the number of positive and negative elements is equal, we can directly maintain separate positions for both signs. | Used two pointers/index positions: `positive_index` starts at 0 and moves by 2, while `negative_index` starts at 1 and also moves by 2. Positive elements are placed at even indices and negative elements at odd indices, producing the required alternating arrangement. |
 | Longest Subarray with Sum 0 | Initially found the prefix sum and HashMap concept confusing, especially why the same prefix sum appearing again indicates a zero-sum subarray. Understood that when two prefix sums are equal, their difference is zero, meaning the elements between those indices have sum 0. | Used Prefix Sum + HashMap. The HashMap stores the first index at which each prefix sum appears. When the same prefix sum appears again, the distance between the current index and its first occurrence gives the length of a zero-sum subarray. The first occurrence is kept because it gives the maximum possible length. |
 | Find Missing and Repeating Numbers | Solved the problem using a frequency array to track how many times each number appears. Used the frequency count to identify the number appearing twice and the number that does not appear at all. | Created a frequency array of size `n + 1`, then traversed the input array and incremented the frequency of each number. Finally, traversed from `1` to `n`: frequency `2` identifies the repeating number, while frequency `0` identifies the missing number. |
+| Reverse Words in a String | Initially confused the problem with reversing the characters of each individual word. Learned that the characters inside each word remain unchanged; only the order of the words needs to be reversed. | Used `split()` to separate the string into words, reversed the order of the words, and used `join()` to construct the final string with single spaces. |
