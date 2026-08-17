@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved:26
+- Problems Solved: 27
 - Current Topic: Arrays
 - Language: Python
 - Platform: LeetCode + Striver A2Z
@@ -41,6 +41,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 24 | 3 Sum | Arrays, Sorting, Two Pointers | 20 min | 3 | ✅ Solved |
 | 25 | Rearrange Array Elements by Sign | Arrays, Two Pointers | 15 min | 2 | ✅ Solved |
 | 26 | Longest Subarray with Sum 0 | Arrays, Prefix Sum, HashMap | 20 min | 3 | ✅ Solved |
+| 27 | Find Missing and Repeating Numbers | Arrays, Hashing, Frequency Array | 20 min | 4 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -74,3 +75,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 3 Sum | Initially tried to build the solution using nested logic and got confused about duplicate handling, pointer movement, and where to place the return statement. Learned the standard sorted-array + two-pointer approach. | First sort the array, then fix one element using `i` and use two pointers `j` and `k` to find the remaining two elements whose sum completes the triplet to zero. If the sum is negative, move `j` forward; if positive, move `k` backward; if zero, store the triplet and move both pointers. Learned to skip duplicates for `i`, `j`, and `k` so that only unique triplets are returned. |
 | Rearrange Array Elements by Sign | Initially focused on how to place positive and negative elements at alternating positions. Learned that when the number of positive and negative elements is equal, we can directly maintain separate positions for both signs. | Used two pointers/index positions: `positive_index` starts at 0 and moves by 2, while `negative_index` starts at 1 and also moves by 2. Positive elements are placed at even indices and negative elements at odd indices, producing the required alternating arrangement. |
 | Longest Subarray with Sum 0 | Initially found the prefix sum and HashMap concept confusing, especially why the same prefix sum appearing again indicates a zero-sum subarray. Understood that when two prefix sums are equal, their difference is zero, meaning the elements between those indices have sum 0. | Used Prefix Sum + HashMap. The HashMap stores the first index at which each prefix sum appears. When the same prefix sum appears again, the distance between the current index and its first occurrence gives the length of a zero-sum subarray. The first occurrence is kept because it gives the maximum possible length. |
+| Find Missing and Repeating Numbers | Solved the problem using a frequency array to track how many times each number appears. Used the frequency count to identify the number appearing twice and the number that does not appear at all. | Created a frequency array of size `n + 1`, then traversed the input array and incremented the frequency of each number. Finally, traversed from `1` to `n`: frequency `2` identifies the repeating number, while frequency `0` identifies the missing number. |
