@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 28
+- Problems Solved: 29
 - Current Topic: String
 - Language: Python
 - Platform: Striver A2Z
@@ -43,6 +43,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 26 | Longest Subarray with Sum 0 | Arrays, Prefix Sum, HashMap | 20 min | 3 | ✅ Solved |
 | 27 | Find Missing and Repeating Numbers | Arrays, Hashing, Frequency Array | 20 min | 4 | ✅ Solved |
 | 28 | Reverse Words in a String | Strings, Split, Reverse, Join | 10 min | 1 | ✅ Solved |
+| 29 | Largest Odd Number in a String | Strings, Traversal, String Manipulation | 12 min | 3 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -78,3 +79,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Longest Subarray with Sum 0 | Initially found the prefix sum and HashMap concept confusing, especially why the same prefix sum appearing again indicates a zero-sum subarray. Understood that when two prefix sums are equal, their difference is zero, meaning the elements between those indices have sum 0. | Used Prefix Sum + HashMap. The HashMap stores the first index at which each prefix sum appears. When the same prefix sum appears again, the distance between the current index and its first occurrence gives the length of a zero-sum subarray. The first occurrence is kept because it gives the maximum possible length. |
 | Find Missing and Repeating Numbers | Solved the problem using a frequency array to track how many times each number appears. Used the frequency count to identify the number appearing twice and the number that does not appear at all. | Created a frequency array of size `n + 1`, then traversed the input array and incremented the frequency of each number. Finally, traversed from `1` to `n`: frequency `2` identifies the repeating number, while frequency `0` identifies the missing number. |
 | Reverse Words in a String | Initially confused the problem with reversing the characters of each individual word. Learned that the characters inside each word remain unchanged; only the order of the words needs to be reversed. | Used `split()` to separate the string into words, reversed the order of the words, and used `join()` to construct the final string with single spaces. |
+| Largest Odd Number in a String | Initially confused whether to reverse individual characters or work with the number as a whole. Learned that an odd number must end with an odd digit, so we can traverse the string from the right and find the first odd digit. Also learned that leading zeros must be removed from the resulting number. | Converted the input to a string and traversed from right to left. When the first odd digit was found, took the substring from the beginning up to that digit. Then manually skipped leading zeros without using `lstrip()` and returned the remaining string. If no odd digit was found, returned an empty string. |
