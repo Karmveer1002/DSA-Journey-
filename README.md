@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 30
+- Problems Solved: 31
 - Current Topic: String
 - Language: Python
 - Platform: Striver A2Z
@@ -45,6 +45,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 28 | Reverse Words in a String | Strings, Split, Reverse, Join | 10 min | 1 | ✅ Solved |
 | 29 | Largest Odd Number in a String | Strings, Traversal, String Manipulation | 12 min | 3 | ✅ Solved |
 | 30 | Longest Common Prefix | Strings, Prefix, String Matching | 12 min | 2 | ✅ Solved |
+| 31 | Isomorphic Strings | Strings, Hashing, HashMap, Mapping | 15 min | 3 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -82,3 +83,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Reverse Words in a String | Initially confused the problem with reversing the characters of each individual word. Learned that the characters inside each word remain unchanged; only the order of the words needs to be reversed. | Used `split()` to separate the string into words, reversed the order of the words, and used `join()` to construct the final string with single spaces. |
 | Largest Odd Number in a String | Initially confused whether to reverse individual characters or work with the number as a whole. Learned that an odd number must end with an odd digit, so we can traverse the string from the right and find the first odd digit. Also learned that leading zeros must be removed from the resulting number. | Converted the input to a string and traversed from right to left. When the first odd digit was found, took the substring from the beginning up to that digit. Then manually skipped leading zeros without using `lstrip()` and returned the remaining string. If no odd digit was found, returned an empty string. |
 | Longest Common Prefix | Initially understood the problem by comparing characters at the same position, then learned a simpler approach using the first string as the initial prefix. The prefix is reduced until it matches the beginning of every other string. | Set the first string as `prefix` and compared it with every remaining word using `startswith()`. If the current word did not start with the prefix, removed the last character using `prefix[:-1]` until a match was found. If the prefix became empty, returned an empty string. |
+| Isomorphic Strings | Learned that two strings are isomorphic when each character from one string maps consistently to exactly one character in the other string. Initially used lists for mapping but corrected this to dictionaries. Also understood why mapping must be checked in both directions to ensure a one-to-one relationship. | Used two hashmaps: `mapst` for mapping characters from `s` to `t` and `mapts` for mapping characters from `t` to `s`. Checked existing mappings for consistency and stored new mappings in both dictionaries. |
