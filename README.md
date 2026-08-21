@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 32
+- Problems Solved: 33
 - Current Topic: String
 - Language: Python
 - Platform: Striver A2Z
@@ -47,6 +47,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 30 | Longest Common Prefix | Strings, Prefix, String Matching | 12 min | 2 | ✅ Solved |
 | 31 | Isomorphic Strings | Strings, Hashing, HashMap, Mapping | 15 min | 3 | ✅ Solved |
 | 32 | Valid Anagram | Strings, Hashing, Frequency Map | 10 min | 3 | ✅ Solved |
+| 33 | String to Integer (atoi) | Strings, Traversal, Parsing, Edge Cases | 25 min | 5 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -86,3 +87,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Longest Common Prefix | Initially understood the problem by comparing characters at the same position, then learned a simpler approach using the first string as the initial prefix. The prefix is reduced until it matches the beginning of every other string. | Set the first string as `prefix` and compared it with every remaining word using `startswith()`. If the current word did not start with the prefix, removed the last character using `prefix[:-1]` until a match was found. If the prefix became empty, returned an empty string. |
 | Isomorphic Strings | Learned that two strings are isomorphic when each character from one string maps consistently to exactly one character in the other string. Initially used lists for mapping but corrected this to dictionaries. Also understood why mapping must be checked in both directions to ensure a one-to-one relationship. | Used two hashmaps: `mapst` for mapping characters from `s` to `t` and `mapts` for mapping characters from `t` to `s`. Checked existing mappings for consistency and stored new mappings in both dictionaries. |
 | Valid Anagram | Learned that two strings are anagrams when they have the same length and exactly the same frequency of every character, regardless of character order. Initially used a list incorrectly for frequency tracking and corrected it to a dictionary. | Used a frequency dictionary. Increased the count for every character in `s`, then decreased the count for every character in `t`. If a character is missing or any final frequency is not zero, returned `False`; otherwise returned `True`. |
+| String to Integer (atoi) | Learned how to convert a string into an integer while handling leading spaces, positive/negative signs, digits, non-digit characters, leading zeros, and integer overflow. | Skipped leading spaces, checked the sign, built the number using `ans = ans * 10 + digit`, stopped at the first non-digit character, applied the sign, and clamped the result within the 32-bit signed integer range. |
