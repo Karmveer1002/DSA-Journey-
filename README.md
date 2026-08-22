@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 35
+- Problems Solved: 36
 - Current Topic: String
 - Language: Python
 - Platform: Striver A2Z
@@ -50,6 +50,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 33 | String to Integer (atoi) | Strings, Traversal, Parsing, Edge Cases | 25 min | 5 | ✅ Solved |
 | 34 | Longest Palindromic Substring | Strings, Two Pointers, Expand Around Center | 20 min | 3 | ✅ Solved |
 | 35 | Roman to Integer | Strings, HashMap, Traversal | 10 min | 3 | ✅ Solved |
+| 36 | Selection Sort | Sorting, Arrays, Nested Loops, Swapping | 10 min | 1 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -92,3 +93,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | String to Integer (atoi) | Learned how to convert a string into an integer while handling leading spaces, positive/negative signs, digits, non-digit characters, leading zeros, and integer overflow. | Skipped leading spaces, checked the sign, built the number using `ans = ans * 10 + digit`, stopped at the first non-digit character, applied the sign, and clamped the result within the 32-bit signed integer range. |
 | Longest Palindromic Substring | Learned that a palindrome can have either an odd-length center or an even-length center. Initially faced TLE due to creating substrings during every expansion, then optimized by storing only the starting index and maximum length. | Used the expand-around-center approach. For every index, checked both odd-length `(i, i)` and even-length `(i, i+1)` palindromes. Expanded left and right while characters matched and stored the longest palindrome's starting position and length. |
 | Roman to Integer | Learned the Roman numeral values and the subtraction rule. If the current value is smaller than the previous value while traversing from right to left, subtract it; otherwise, add it. | Created a dictionary mapping Roman characters to their values. Traversed the string from right to left while maintaining the previous value. Added or subtracted the current value based on its comparison with the previous value. |
+| Selection Sort | Learned that Selection Sort repeatedly finds the smallest element from the unsorted part and places it at the current position. Understood both the standard `minIndex` approach and an alternative approach without storing `minIndex`. | Approach 1: Set `minIndex = i`, find the smallest element in the remaining array, then perform one swap after the inner loop. Approach 2: Compare `arr[j]` directly with `arr[i]` and swap immediately whenever a smaller element is found. |
