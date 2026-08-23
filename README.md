@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 36
+- Problems Solved: 37
 - Current Topic: Sorting
 - Language: Python
 - Platform: Striver A2Z
@@ -51,6 +51,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 34 | Longest Palindromic Substring | Strings, Two Pointers, Expand Around Center | 20 min | 3 | ✅ Solved |
 | 35 | Roman to Integer | Strings, HashMap, Traversal | 10 min | 3 | ✅ Solved |
 | 36 | Selection Sort | Sorting, Arrays, Nested Loops, Swapping | 10 min | 1 | ✅ Solved |
+| 37 | Bubble Sort | Sorting, Arrays, Nested Loops, Swapping | 5 min | 1 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -94,3 +95,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Longest Palindromic Substring | Learned that a palindrome can have either an odd-length center or an even-length center. Initially faced TLE due to creating substrings during every expansion, then optimized by storing only the starting index and maximum length. | Used the expand-around-center approach. For every index, checked both odd-length `(i, i)` and even-length `(i, i+1)` palindromes. Expanded left and right while characters matched and stored the longest palindrome's starting position and length. |
 | Roman to Integer | Learned the Roman numeral values and the subtraction rule. If the current value is smaller than the previous value while traversing from right to left, subtract it; otherwise, add it. | Created a dictionary mapping Roman characters to their values. Traversed the string from right to left while maintaining the previous value. Added or subtracted the current value based on its comparison with the previous value. |
 | Selection Sort | Learned that Selection Sort repeatedly finds the smallest element from the unsorted part and places it at the current position. Understood both the standard `minIndex` approach and an alternative approach without storing `minIndex`. | Approach 1: Set `minIndex = i`, find the smallest element in the remaining array, then perform one swap after the inner loop. Approach 2: Compare `arr[j]` directly with `arr[i]` and swap immediately whenever a smaller element is found. |
+| Bubble Sort | Learned that Bubble Sort compares adjacent elements and swaps them when they are in the wrong order. After every pass, the largest unsorted element moves to the end of the array. | Compared `arr[j]` with `arr[j + 1]` and swapped them if the left element was greater. Repeated this process for multiple passes until the array was sorted. |
