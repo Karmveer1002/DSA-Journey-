@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 37
+- Problems Solved: 38
 - Current Topic: Sorting
 - Language: Python
 - Platform: Striver A2Z
@@ -52,6 +52,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 35 | Roman to Integer | Strings, HashMap, Traversal | 10 min | 3 | ✅ Solved |
 | 36 | Selection Sort | Sorting, Arrays, Nested Loops, Swapping | 10 min | 1 | ✅ Solved |
 | 37 | Bubble Sort | Sorting, Arrays, Nested Loops, Swapping | 5 min | 1 | ✅ Solved |
+| 38 | Insertion Sort | Sorting, Arrays, Nested Loops, Shifting | 10 min | 3 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -96,3 +97,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Roman to Integer | Learned the Roman numeral values and the subtraction rule. If the current value is smaller than the previous value while traversing from right to left, subtract it; otherwise, add it. | Created a dictionary mapping Roman characters to their values. Traversed the string from right to left while maintaining the previous value. Added or subtracted the current value based on its comparison with the previous value. |
 | Selection Sort | Learned that Selection Sort repeatedly finds the smallest element from the unsorted part and places it at the current position. Understood both the standard `minIndex` approach and an alternative approach without storing `minIndex`. | Approach 1: Set `minIndex = i`, find the smallest element in the remaining array, then perform one swap after the inner loop. Approach 2: Compare `arr[j]` directly with `arr[i]` and swap immediately whenever a smaller element is found. |
 | Bubble Sort | Learned that Bubble Sort compares adjacent elements and swaps them when they are in the wrong order. After every pass, the largest unsorted element moves to the end of the array. | Compared `arr[j]` with `arr[j + 1]` and swapped them if the left element was greater. Repeated this process for multiple passes until the array was sorted. |
+| Insertion Sort | Learned how to maintain a sorted portion of the array and insert each new element into its correct position. Understood how larger elements are shifted one position to the right to create space for the current element. | Used `curr` to store the current element and `j` to move backwards through the sorted portion. While `nums[j] > curr`, shifted `nums[j]` to `nums[j+1]`. Finally inserted `curr` at `nums[j+1]`. |
