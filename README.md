@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 39
+- Problems Solved: 40
 - Current Topic: Sorting
 - Language: Python
 - Platform: Striver A2Z
@@ -50,10 +50,11 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 33 | String to Integer (atoi) | Strings, Traversal, Parsing, Edge Cases | 25 min | 5 | ✅ Solved |
 | 34 | Longest Palindromic Substring | Strings, Two Pointers, Expand Around Center | 20 min | 3 | ✅ Solved |
 | 35 | Roman to Integer | Strings, HashMap, Traversal | 10 min | 3 | ✅ Solved |
-| 36 | Selection Sort | Sorting, Arrays, Nested Loops, Swapping | 10 min | 1 | ✅ Solved |
-| 37 | Bubble Sort | Sorting, Arrays, Nested Loops, Swapping | 5 min | 1 | ✅ Solved |
-| 38 | Insertion Sort | Sorting, Arrays, Nested Loops, Shifting | 10 min | 3 | ✅ Solved |
-| 39 | Merge Sort | Sorting, Divide & Conquer, Recursion, Merging | 25 min | 4 | ✅ Solved |
+| 36 | Selection Sort | Arrays, Nested Loops, Swapping | 10 min | 2 | ✅ Solved |
+| 37 | Bubble Sort | Arrays, Nested Loops, Swapping | 5 min | 2 | ✅ Solved |
+| 38 | Insertion Sort | Arrays, Nested Loops, Shifting | 10 min | 3 | ✅ Solved |
+| 39 | Merge Sort | Divide & Conquer, Recursion, Merging | 25 min | 4 | ✅ Solved |
+| 40 | Quick Sort | Divide & Conquer, Recursion, Pivot, Partitioning | 10 min | 1 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -99,4 +100,5 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Selection Sort | Learned that Selection Sort repeatedly finds the smallest element from the unsorted part and places it at the current position. Understood both the standard `minIndex` approach and an alternative approach without storing `minIndex`. | Approach 1: Set `minIndex = i`, find the smallest element in the remaining array, then perform one swap after the inner loop. Approach 2: Compare `arr[j]` directly with `arr[i]` and swap immediately whenever a smaller element is found. |
 | Bubble Sort | Learned that Bubble Sort compares adjacent elements and swaps them when they are in the wrong order. After every pass, the largest unsorted element moves to the end of the array. | Compared `arr[j]` with `arr[j + 1]` and swapped them if the left element was greater. Repeated this process for multiple passes until the array was sorted. |
 | Insertion Sort | Learned how to maintain a sorted portion of the array and insert each new element into its correct position. Understood how larger elements are shifted one position to the right to create space for the current element. | Used `curr` to store the current element and `j` to move backwards through the sorted portion. While `nums[j] > curr`, shifted `nums[j]` to `nums[j+1]`. Finally inserted `curr` at `nums[j+1]`. |
+| Merge Sort | Learned the Divide and Conquer approach. The array is repeatedly divided into two halves until single elements remain, then the sorted halves are merged by comparing their elements. | Used recursion to divide the array into `left` and `right` halves. After sorting both halves recursively, compared their elements using two pointers `i` and `j`, added the smaller element to `result`, and finally extended the remaining elements. |
 | Merge Sort | Learned the Divide and Conquer approach. The array is repeatedly divided into two halves until single elements remain, then the sorted halves are merged by comparing their elements. | Used recursion to divide the array into `left` and `right` halves. After sorting both halves recursively, compared their elements using two pointers `i` and `j`, added the smaller element to `result`, and finally extended the remaining elements. |
