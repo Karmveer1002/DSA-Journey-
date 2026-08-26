@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 40
+- Problems Solved: 41
 - Current Topic: Sorting
 - Language: Python
 - Platform: Striver A2Z
@@ -55,6 +55,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 38 | Insertion Sort | Arrays, Nested Loops, Shifting | 10 min | 3 | ✅ Solved |
 | 39 | Merge Sort | Divide & Conquer, Recursion, Merging | 25 min | 4 | ✅ Solved |
 | 40 | Quick Sort | Divide & Conquer, Recursion, Pivot, Partitioning | 10 min | 1 | ✅ Solved |
+| 41 | Recursive Insertion Sort | Sorting, Recursion, Arrays | 20 min | 4 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -102,3 +103,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Insertion Sort | Learned how to maintain a sorted portion of the array and insert each new element into its correct position. Understood how larger elements are shifted one position to the right to create space for the current element. | Used `curr` to store the current element and `j` to move backwards through the sorted portion. While `nums[j] > curr`, shifted `nums[j]` to `nums[j+1]`. Finally inserted `curr` at `nums[j+1]`. |
 | Merge Sort | Learned the Divide and Conquer approach. The array is repeatedly divided into two halves until single elements remain, then the sorted halves are merged by comparing their elements. | Used recursion to divide the array into `left` and `right` halves. After sorting both halves recursively, compared their elements using two pointers `i` and `j`, added the smaller element to `result`, and finally extended the remaining elements. |
 | Merge Sort | Learned the Divide and Conquer approach. The array is repeatedly divided into two halves until single elements remain, then the sorted halves are merged by comparing their elements. | Used recursion to divide the array into `left` and `right` halves. After sorting both halves recursively, compared their elements using two pointers `i` and `j`, added the smaller element to `result`, and finally extended the remaining elements. |
+| Recursive Insertion Sort | Learned how to implement Insertion Sort using recursion instead of an outer loop. The function first recursively sorts the first `n-1` elements, then inserts the last element into its correct position. | Used a recursive helper function `sort(n)`. The base case is `n <= 1`. After recursively sorting `n-1` elements, stored the last element as `key`, shifted larger elements to the right, and inserted `key` at its correct position. |
