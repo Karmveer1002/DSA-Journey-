@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 41
+- Problems Solved: 42
 - Current Topic: Sorting
 - Language: Python
 - Platform: Striver A2Z
@@ -56,6 +56,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 39 | Merge Sort | Divide & Conquer, Recursion, Merging | 25 min | 4 | ✅ Solved |
 | 40 | Quick Sort | Divide & Conquer, Recursion, Pivot, Partitioning | 10 min | 1 | ✅ Solved |
 | 41 | Recursive Insertion Sort | Sorting, Recursion, Arrays | 20 min | 4 | ✅ Solved |
+| 42 | Recursive Bubble Sort | Sorting, Recursion, Arrays, Swapping | 20 min | 3 | ✅ Solved |
 ---
 
 🧠 Learning Journal
@@ -104,3 +105,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Merge Sort | Learned the Divide and Conquer approach. The array is repeatedly divided into two halves until single elements remain, then the sorted halves are merged by comparing their elements. | Used recursion to divide the array into `left` and `right` halves. After sorting both halves recursively, compared their elements using two pointers `i` and `j`, added the smaller element to `result`, and finally extended the remaining elements. |
 | Merge Sort | Learned the Divide and Conquer approach. The array is repeatedly divided into two halves until single elements remain, then the sorted halves are merged by comparing their elements. | Used recursion to divide the array into `left` and `right` halves. After sorting both halves recursively, compared their elements using two pointers `i` and `j`, added the smaller element to `result`, and finally extended the remaining elements. |
 | Recursive Insertion Sort | Learned how to implement Insertion Sort using recursion instead of an outer loop. The function first recursively sorts the first `n-1` elements, then inserts the last element into its correct position. | Used a recursive helper function `sort(n)`. The base case is `n <= 1`. After recursively sorting `n-1` elements, stored the last element as `key`, shifted larger elements to the right, and inserted `key` at its correct position. |
+| Recursive Bubble Sort | Learned how Bubble Sort can be implemented using recursion instead of an outer loop. Each recursive call reduces the unsorted portion of the array by one because the largest element reaches the end after every pass. | Used a `sort(nums, n)` helper method. The base case is `n == 1`. In each pass, adjacent elements are compared and swapped if they are in the wrong order. After the pass, recursion is called with `n - 1` because the last element is already sorted. |
