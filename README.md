@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 43
+- Problems Solved: 44
 - Current Topic: Recursion
 - Language: Python
 - Platform: Striver A2Z
@@ -58,7 +58,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 41 | Recursive Insertion Sort | Sorting, Recursion, Arrays | 20 min | 4 | ✅ Solved |
 | 42 | Recursive Bubble Sort | Sorting, Recursion, Arrays, Swapping | 20 min | 3 | ✅ Solved |
 | 43 | Pow(x, n) | Recursion, Binary Exponentiation, Divide & Conquer | 15 min | 3 | ✅ Solved |
----
+| 44 | Count All Subsequences with Sum K | Recursion, Subsequences, Backtracking | 15 min | 4 | ✅ Solved |
 
 🧠 Learning Journal
 
@@ -108,3 +108,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Recursive Insertion Sort | Learned how to implement Insertion Sort using recursion instead of an outer loop. The function first recursively sorts the first `n-1` elements, then inserts the last element into its correct position. | Used a recursive helper function `sort(n)`. The base case is `n <= 1`. After recursively sorting `n-1` elements, stored the last element as `key`, shifted larger elements to the right, and inserted `key` at its correct position. |
 | Recursive Bubble Sort | Learned how Bubble Sort can be implemented using recursion instead of an outer loop. Each recursive call reduces the unsorted portion of the array by one because the largest element reaches the end after every pass. | Used a `sort(nums, n)` helper method. The base case is `n == 1`. In each pass, adjacent elements are compared and swapped if they are in the wrong order. After the pass, recursion is called with `n - 1` because the last element is already sorted. |
 | Pow(x, n) | Learned how recursion can be used to calculate powers efficiently by reducing the exponent by half at every recursive call. Understood the base case, recursive call, and handling of even, odd, and negative powers. | Used `self.myPow(x, n // 2)` as the recursive call. Stored the result in `half`. For even `n`, returned `half * half`; for odd `n`, returned `half * half * x`. For negative `n`, converted `x` to `1/x` and `n` to positive. |
+| Count All Subsequences with Sum K | Learned how to count subsequences using recursion by considering two choices for every element: take it or skip it. | Used a recursive helper with `index` and `total`. For every element, calculated both `take` and `notTake` cases. At the end of the array, returned `1` when the sum equals `k`, otherwise `0`. Added both counts to get the total number of valid subsequences. |
