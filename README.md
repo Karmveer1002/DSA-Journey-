@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 46
+- Problems Solved: 47
 - Current Topic: Recursion
 - Language: Python
 - Platform: Striver A2Z
@@ -61,6 +61,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 44 | Count All Subsequences with Sum K | Recursion, Subsequences, Backtracking | 15 min | 4 | ✅ Solved |
 | 45 | Check if There Exists a Subsequence with Sum K | Recursion, Subsequences, Backtracking | 10 min | 2 | ✅ Solved |
 | 46 | Subset Sums | Recursion , Backtracking | 5 min | 1 | ✅ Solved |
+| 47 | Combination Sum | Recursion, Backtracking | 8 min | 1 | ✅ Solved |
 
 🧠 Learning Journal
 
@@ -113,3 +114,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Count All Subsequences with Sum K | Learned how to count subsequences using recursion by considering two choices for every element: take it or skip it. | Used a recursive helper with `index` and `total`. For every element, calculated both `take` and `notTake` cases. At the end of the array, returned `1` when the sum equals `k`, otherwise `0`. Added both counts to get the total number of valid subsequences. |
 | Check if There Exists a Subsequence with Sum K | Learned how to check whether at least one subsequence has a target sum using recursion. | Used a recursive `solve(i, total)` function with two choices for every element: take it or not take it. Returned `True` as soon as the target sum `k` was reached. If the array ended or the sum exceeded `k`, returned `False`. |
 | Subset Sums | Understanding how to generate all possible subset sums using recursion | Learned the Take / Not Take pattern and how `index` and `sum` represent the current state in recursion |
+| Combination Sum | Understanding repeated choices and handling index out of range | Learned the Take / Not Take pattern, same-index recursion for reusable elements, and backtracking using `append → recurse → pop` |
