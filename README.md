@@ -4,7 +4,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 📊 SUMMARY
 
 - Problems Solved: 48
-- Current Topic: Recursion
+- Current Topic: Recursion & Backtracking
 - Language: Python
 - Platform: Striver A2Z
 - Goal: 200+ Problems
