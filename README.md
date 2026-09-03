@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 47
+- Problems Solved: 48
 - Current Topic: Recursion
 - Language: Python
 - Platform: Striver A2Z
@@ -62,6 +62,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 45 | Check if There Exists a Subsequence with Sum K | Recursion, Subsequences, Backtracking | 10 min | 2 | ✅ Solved |
 | 46 | Subset Sums | Recursion , Backtracking | 5 min | 1 | ✅ Solved |
 | 47 | Combination Sum | Recursion, Backtracking | 8 min | 1 | ✅ Solved |
+| 48 | Generate Parentheses | Recursion, Backtracking | 8 min | 2 | ✅ Solved |
 
 🧠 Learning Journal
 
@@ -115,3 +116,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Check if There Exists a Subsequence with Sum K | Learned how to check whether at least one subsequence has a target sum using recursion. | Used a recursive `solve(i, total)` function with two choices for every element: take it or not take it. Returned `True` as soon as the target sum `k` was reached. If the array ended or the sum exceeded `k`, returned `False`. |
 | Subset Sums | Understanding how to generate all possible subset sums using recursion | Learned the Take / Not Take pattern and how `index` and `sum` represent the current state in recursion |
 | Combination Sum | Understanding repeated choices and handling index out of range | Learned the Take / Not Take pattern, same-index recursion for reusable elements, and backtracking using `append → recurse → pop` |
+| Generate Parentheses | Understanding when to place `(` and `)` and why answers need to be stored instead of directly returned | Learned how to track `open` and `close` counts, use `open < n` and `close < open` conditions, and apply backtracking with `append → recurse → pop` |
