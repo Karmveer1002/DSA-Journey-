@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 49
+- Problems Solved: 50
 - Current Topic: Binary Search
 - Language: Python
 - Platform: Striver A2Z
@@ -64,6 +64,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 47 | Combination Sum | Recursion, Backtracking | 8 min | 1 | ✅ Solved |
 | 48 | Generate Parentheses | Recursion, Backtracking | 8 min | 2 | ✅ Solved |
 | 49 | Search X in Sorted Array | Binary Search | 4 min | 1 | ✅ Solved |
+| 50 | Lower Bound | Binary Search | 5 min | 2 | ✅ Solved |
 
 🧠 Learning Journal
 
@@ -119,3 +120,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Combination Sum | Understanding repeated choices and handling index out of range | Learned the Take / Not Take pattern, same-index recursion for reusable elements, and backtracking using `append → recurse → pop` |
 | Generate Parentheses | Understanding when to place `(` and `)` and why answers need to be stored instead of directly returned | Learned how to track `open` and `close` counts, use `open < n` and `close < open` conditions, and apply backtracking with `append → recurse → pop` |
 | Search X in Sorted Array | Understanding low, high and mid as indexes and fixing the search loop | Learned the basic Binary Search approach using `low`, `high`, `mid` and reducing the search space by half |
+| Lower Bound | Understanding the `>= target` condition and avoiding TLE by correctly updating `low` and `high` | Learned how to find the first index where `nums[index] >= target` using Binary Search |
