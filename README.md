@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 51
+- Problems Solved: 52
 - Current Topic: Binary Search
 - Language: Python
 - Platform: Striver A2Z
@@ -66,7 +66,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 49 | Search X in Sorted Array | Binary Search | 4 min | 1 | ✅ Solved |
 | 50 | Lower Bound | Binary Search | 5 min | 2 | ✅ Solved |
 | 51 | Upper Bound | Binary Search | 2 min | 1 | ✅ Solved |
-
+| 52 | Search Insert Position | Binary Search | 2 min | 1 | ✅ Solved |
 🧠 Learning Journal
 
 | Problem | Challenges Faced | What I Learned |
@@ -123,3 +123,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Search X in Sorted Array | Understanding low, high and mid as indexes and fixing the search loop | Learned the basic Binary Search approach using `low`, `high`, `mid` and reducing the search space by half |
 | Lower Bound | Understanding the `>= target` condition and avoiding TLE by correctly updating `low` and `high` | Learned how to find the first index where `nums[index] >= target` using Binary Search |
 | Upper Bound | Understanding the difference between `>=` and `>` conditions | Learned how to find the first index where `nums[index] > target` using Binary Search |
+| Search Insert Position | Recognizing that the problem is equivalent to Lower Bound | Learned that Search Insert Position can be solved using the Lower Bound condition `nums[mid] >= target` |
