@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 55
+- Problems Solved: 56
 - Current Topic: Binary Search
 - Language: Python
 - Platform: Striver A2Z
@@ -70,7 +70,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 53 | Search in Rotated Sorted Array I | Binary Search | 5 min | 2 | ✅ Solved |
 | 54 | Search in Rotated Sorted Array II | Binary Search | 5 min | 3 | ✅ Solved |
 | 55 | Find Peak Element | Binary Search | 2 min | 1 | ✅ Solved |
-
+| 56 | Floor Square Root | Binary Search | 4 min | 2 | ✅ Solved |
 
 🧠 Learning Journal
 
@@ -132,3 +132,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Search in Rotated Sorted Array I | Identifying which half of a rotated array is sorted and deciding where the target can lie | Learned how to apply binary search on a rotated sorted array using sorted-half detection and `low = mid + 1` / `high = mid - 1` |
 | Search in Rotated Sorted Array II | Handling duplicates when identifying the sorted half | Learned how to shrink the search space with `low++` and `high--` when `nums[low] == nums[mid] == nums[high]` |
 | Find Peak Element | Understanding the slope-based Binary Search approach | Learned that if `arr[mid] < arr[mid + 1]`, the peak lies on the right, otherwise it lies on the left including `mid` |
+| Floor Square Root | Understanding how to find the largest number whose square is less than or equal to `n` | Learned how to use Binary Search with `mid * mid <= n` and maintain the best valid answer |
