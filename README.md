@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 54
+- Problems Solved: 55
 - Current Topic: Binary Search
 - Language: Python
 - Platform: Striver A2Z
@@ -69,6 +69,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 52 | Search Insert Position | Binary Search | 2 min | 1 | ✅ Solved |
 | 53 | Search in Rotated Sorted Array I | Binary Search | 5 min | 2 | ✅ Solved |
 | 54 | Search in Rotated Sorted Array II | Binary Search | 5 min | 3 | ✅ Solved |
+| 55 | Find Peak Element | Binary Search | 2 min | 1 | ✅ Solved |
 
 
 🧠 Learning Journal
@@ -130,3 +131,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Search Insert Position | Recognizing that the problem is equivalent to Lower Bound | Learned that Search Insert Position can be solved using the Lower Bound condition `nums[mid] >= target` |
 | Search in Rotated Sorted Array I | Identifying which half of a rotated array is sorted and deciding where the target can lie | Learned how to apply binary search on a rotated sorted array using sorted-half detection and `low = mid + 1` / `high = mid - 1` |
 | Search in Rotated Sorted Array II | Handling duplicates when identifying the sorted half | Learned how to shrink the search space with `low++` and `high--` when `nums[low] == nums[mid] == nums[high]` |
+| Find Peak Element | Understanding the slope-based Binary Search approach | Learned that if `arr[mid] < arr[mid + 1]`, the peak lies on the right, otherwise it lies on the left including `mid` |
