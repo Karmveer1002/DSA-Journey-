@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 56
+- Problems Solved: 58
 - Current Topic: Binary Search
 - Language: Python
 - Platform: Striver A2Z
@@ -71,6 +71,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 54 | Search in Rotated Sorted Array II | Binary Search | 5 min | 3 | ✅ Solved |
 | 55 | Find Peak Element | Binary Search | 2 min | 1 | ✅ Solved |
 | 56 | Floor Square Root | Binary Search | 4 min | 2 | ✅ Solved |
+| 57 | Koko Eating Bananas | Binary Search | 6 min | 1 | ✅ Solved |
+| 58 | Search in a 2D Matrix | Binary Search | 10 min | 1 | ✅ Solved |
 
 🧠 Learning Journal
 
@@ -133,3 +135,5 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Search in Rotated Sorted Array II | Handling duplicates when identifying the sorted half | Learned how to shrink the search space with `low++` and `high--` when `nums[low] == nums[mid] == nums[high]` |
 | Find Peak Element | Understanding the slope-based Binary Search approach | Learned that if `arr[mid] < arr[mid + 1]`, the peak lies on the right, otherwise it lies on the left including `mid` |
 | Floor Square Root | Understanding how to find the largest number whose square is less than or equal to `n` | Learned how to use Binary Search with `mid * mid <= n` and maintain the best valid answer |
+| Koko Eating Bananas | Understanding Binary Search on Answer and calculating required hours for each eating speed | Learned how to search for the minimum valid eating rate using `hours <= h` as the feasibility condition |
+| Search in a 2D Matrix | Understanding how to treat a 2D matrix as a sorted 1D array | Learned how to convert a 1D `mid` index into matrix coordinates using `row = mid // cols` and `col = mid % cols` |
