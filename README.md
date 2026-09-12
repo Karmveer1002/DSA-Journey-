@@ -3,8 +3,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 58
-- Current Topic: Binary Search
+- Problems Solved: 59
+- Current Topic: Stack & Queues
 - Language: Python
 - Platform: Striver A2Z
 - Goal: 200+ Problems
@@ -73,6 +73,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 56 | Floor Square Root | Binary Search | 4 min | 2 | ✅ Solved |
 | 57 | Koko Eating Bananas | Binary Search | 6 min | 1 | ✅ Solved |
 | 58 | Search in a 2D Matrix | Binary Search | 10 min | 1 | ✅ Solved |
+| 59 | Implement Stack using Array | Stack | 5 min | 1 | ✅ Solved |
 
 🧠 Learning Journal
 
@@ -137,3 +138,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Floor Square Root | Understanding how to find the largest number whose square is less than or equal to `n` | Learned how to use Binary Search with `mid * mid <= n` and maintain the best valid answer |
 | Koko Eating Bananas | Understanding Binary Search on Answer and calculating required hours for each eating speed | Learned how to search for the minimum valid eating rate using `hours <= h` as the feasibility condition |
 | Search in a 2D Matrix | Understanding how to treat a 2D matrix as a sorted 1D array | Learned how to convert a 1D `mid` index into matrix coordinates using `row = mid // cols` and `col = mid % cols` |
+| Implement Stack using Array | Understanding LIFO and implementing `push`, `pop`, `top`, and `isEmpty` using a Python list | Learned how to use list operations to implement Stack functionality |
