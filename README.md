@@ -7,7 +7,6 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 - Current Topic: Stack & Queues
 - Language: Python
 - Platform: Striver A2Z
-- Goal: 200+ Problems
 
  
 📊 DSA Progress Tracker
