@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 62
+- Problems Solved: 63
 - Current Topic: Stack & Queues
 - Language: Python
 - Platform: Striver A2Z
@@ -76,6 +76,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 60 | Implement Queue using Array | Queue | 3 min | 1 | ✅ Solved |
 | 61 | Valid Parentheses | Stack | 10 min | 3 | ✅ Solved |
 | 62 | Min Stack | Stack | 10 min | 5 | ✅ Solved |
+| 63 | Next Greater Element | Stack | 6 min | 3 | ✅ Solved |
 
 🧠 Learning Journal
 
@@ -144,3 +145,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Implement Queue using Array | Understanding FIFO and implementing `push`, `pop`, `peek`, and `isEmpty` using a Python list | Learned how to implement Queue using array/list operations, where the first inserted element is removed first |
 | Valid Parentheses | Using a stack to match opening and closing brackets | Learned how to push opening brackets, check the top for matching closing brackets, pop matched pairs, and verify the stack is empty at the end |
 | Min Stack | Using two stacks to maintain elements and the current minimum | Learned how to maintain a `minStack` so the minimum element can be retrieved in O(1) time |
+| Next Greater Element | Using a monotonic stack to find the first greater element on the right | Learned how to traverse from right to left, remove smaller/equal elements, and use the stack top as the next greater element |
