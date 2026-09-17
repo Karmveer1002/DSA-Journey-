@@ -12,7 +12,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 📊 DSA Progress Tracker
 
 | # | Problem Name | Topic | Time Taken | Attempts | Status |
-|:-:|--------------|:-----:|:----------:|:--------:|:------:|  
+|:-:|--------------|:-----:|:----------:|:--------:|:------:|
 | 1 | Largest Element in an Array | Arrays | 12 min | 1 | ✅ Solved |
 | 2 | Largest Digit in a Number | Basic Maths | 15 min | 2 | ✅ Solved |
 | 3 | Count Digits | Basic Maths | 25 min | 2 | ✅ Solved |
