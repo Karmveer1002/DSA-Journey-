@@ -3,8 +3,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 64
-- Current Topic: Stack & Queues
+- Problems Solved: 69
+- Current Topic: Binary Tree
 - Language: Python
 - Platform: Striver A2Z
      
@@ -78,6 +78,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 62 | Min Stack | Stack | 10 min | 5 | ✅ Solved |
 | 63 | Next Greater Element | Stack | 6 min | 3 | ✅ Solved |
 | 64 | Trapping Rain Water | Two Pointers | 15 min | 5 | ✅ Solved |
+| 65 | Preorder Traversal | Binary Tree | 5 min | 1 | ✅ Solved |
+| 66 | Inorder Traversal | Binary Tree | 5 min | 1 | ✅ Solved |
 
 🧠 Learning Journal
 
