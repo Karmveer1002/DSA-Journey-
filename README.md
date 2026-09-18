@@ -79,7 +79,9 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 63 | Next Greater Element | Stack | 6 min | 3 | ✅ Solved |
 | 64 | Trapping Rain Water | Two Pointers | 15 min | 5 | ✅ Solved |
 | 65 | Preorder Traversal | Binary Tree | 5 min | 1 | ✅ Solved |
-| 66 | Inorder Traversal | Binary Tree | 5 min | 1 | ✅ Solved |
+| 66 | Inorder Traversal | Binary Tree | 2 min | 1 | ✅ Solved |
+| 67 | Postorder Traversal | Binary Tree | 2 min| 1 | ✅ Solved |
+| 68 | Level Order Traversal | Binary Tree | 5 min | 1 | ✅ Solved |
 
 🧠 Learning Journal
 
