@@ -82,6 +82,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 66 | Inorder Traversal | Binary Tree | 2 min | 1 | ✅ Solved |
 | 67 | Postorder Traversal | Binary Tree | 2 min| 1 | ✅ Solved |
 | 68 | Level Order Traversal | Binary Tree | 5 min | 1 | ✅ Solved |
+| 69 | Tree Traversals (Inorder, Preorder & Postorder) | Binary Tree | 5 min | 1 | ✅ Solved |
 
 
 🧠 Learning Journal
@@ -154,3 +155,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Min Stack | Using two stacks to maintain elements and the current minimum | Learned how to maintain a `minStack` so the minimum element can be retrieved in O(1) time |
 | Next Greater Element | Using a monotonic stack to find the first greater element on the right | Learned how to traverse from right to left, remove smaller/equal elements, and use the stack top as the next greater element |
 | Trapping Rain Water | Understanding how water is trapped between left and right boundaries | Learned how to use two pointers with `leftMax` and `rightMax` to calculate trapped water in O(n) time and O(1) space |
+| Preorder Traversal | Understanding the Root → Left → Right traversal order | Learned how to recursively visit the root first, then the left subtree, followed by the right subtree |
