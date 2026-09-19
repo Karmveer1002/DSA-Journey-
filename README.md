@@ -156,3 +156,5 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Next Greater Element | Using a monotonic stack to find the first greater element on the right | Learned how to traverse from right to left, remove smaller/equal elements, and use the stack top as the next greater element |
 | Trapping Rain Water | Understanding how water is trapped between left and right boundaries | Learned how to use two pointers with `leftMax` and `rightMax` to calculate trapped water in O(n) time and O(1) space |
 | Preorder Traversal | Understanding the Root → Left → Right traversal order | Learned how to recursively visit the root first, then the left subtree, followed by the right subtree |
+| Inorder Traversal | Understanding the Left → Root → Right traversal order | Learned how to recursively traverse the left subtree, process the root, and then traverse the right subtree |
+| Postorder Traversal | Understanding the Left → Right → Root traversal order | Learned how to recursively process both subtrees before processing the root |
