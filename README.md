@@ -158,3 +158,5 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Preorder Traversal | Understanding the Root → Left → Right traversal order | Learned how to recursively visit the root first, then the left subtree, followed by the right subtree |
 | Inorder Traversal | Understanding the Left → Root → Right traversal order | Learned how to recursively traverse the left subtree, process the root, and then traverse the right subtree |
 | Postorder Traversal | Understanding the Left → Right → Root traversal order | Learned how to recursively process both subtrees before processing the root |
+| Level Order Traversal | Understanding level-by-level traversal using a queue | Learned how to use BFS with a queue and track the current level size to keep different levels separate |
+| Tree Traversals (Inorder, Preorder & Postorder) | Understanding how the position of root processing changes each traversal | Learned how to generate Inorder, Preorder, and Postorder traversals together using recursion and different positions for processing the root |
