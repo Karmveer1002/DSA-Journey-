@@ -85,6 +85,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 69 | Tree Traversals (Inorder, Preorder & Postorder) | Binary Tree | 5 min | 2 | ✅ Solved |
 | 70 | Maximum Depth of Binary Tree | Binary Tree | 5 min | 2 | ✅ Solved |
 | 71 | Identical Binary Trees | Binary Tree | 8 min | 3 | ✅ Solved |
+| 72 | Balanced Binary Tree | Binary Tree | 10 min | 3 | ✅ Solved |
 
 
 🧠 Learning Journal
@@ -162,3 +163,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Postorder Traversal | Understanding the Left → Right → Root traversal order | Learned how to recursively process both subtrees before processing the root |
 | Level Order Traversal | Understanding level-by-level traversal using a queue | Learned how to use BFS with a queue and track the current level size to keep different levels separate |
 | Tree Traversals (Inorder, Preorder & Postorder) | Understanding how the position of root processing changes each traversal | Learned how to generate Inorder, Preorder, and Postorder traversals together using recursion and different positions for processing the root |
+| Maximum Depth of Binary Tree | Understanding recursive depth calculation and counting the current node | Learned that tree depth is `1 + max(leftDepth, rightDepth)` with `0` as the base case for an empty tree |
