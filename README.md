@@ -164,3 +164,5 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Level Order Traversal | Understanding level-by-level traversal using a queue | Learned how to use BFS with a queue and track the current level size to keep different levels separate |
 | Tree Traversals (Inorder, Preorder & Postorder) | Understanding how the position of root processing changes each traversal | Learned how to generate Inorder, Preorder, and Postorder traversals together using recursion and different positions for processing the root |
 | Maximum Depth of Binary Tree | Understanding recursive depth calculation and counting the current node | Learned that tree depth is `1 + max(leftDepth, rightDepth)` with `0` as the base case for an empty tree |
+| Identical Binary Trees | Comparing corresponding nodes and subtrees recursively | Learned that two trees are identical only when their values and both left and right subtrees match |
+| Balanced Binary Tree | Checking height difference between left and right subtrees | Learned that a tree is balanced when the height difference is at most 1 at every node and both subtrees are balanced |
