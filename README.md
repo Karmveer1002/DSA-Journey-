@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 69
+- Problems Solved: 73
 - Current Topic: Binary Tree
 - Language: Python
 - Platform: Striver A2Z
@@ -78,11 +78,13 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 62 | Min Stack | Stack | 10 min | 5 | ✅ Solved |
 | 63 | Next Greater Element | Stack | 6 min | 3 | ✅ Solved |
 | 64 | Trapping Rain Water | Two Pointers | 15 min | 5 | ✅ Solved |
-| 65 | Preorder Traversal | Binary Tree | 5 min | 1 | ✅ Solved |
+| 65 | Preorder Traversal | Binary Tree | 5 min | 2| ✅ Solved |
 | 66 | Inorder Traversal | Binary Tree | 2 min | 1 | ✅ Solved |
 | 67 | Postorder Traversal | Binary Tree | 2 min| 1 | ✅ Solved |
-| 68 | Level Order Traversal | Binary Tree | 5 min | 1 | ✅ Solved |
-| 69 | Tree Traversals (Inorder, Preorder & Postorder) | Binary Tree | 5 min | 1 | ✅ Solved |
+| 68 | Level Order Traversal | Binary Tree | 5 min | 2 | ✅ Solved |
+| 69 | Tree Traversals (Inorder, Preorder & Postorder) | Binary Tree | 5 min | 2 | ✅ Solved |
+| 70 | Maximum Depth of Binary Tree | Binary Tree | 5 min | 2 | ✅ Solved |
+| 71 | Identical Binary Trees | Binary Tree | 8 min | 3 | ✅ Solved |
 
 
 🧠 Learning Journal
