@@ -169,3 +169,5 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Maximum Depth of Binary Tree | Understanding recursive depth calculation and counting the current node | Learned that tree depth is `1 + max(leftDepth, rightDepth)` with `0` as the base case for an empty tree |
 | Identical Binary Trees | Comparing corresponding nodes and subtrees recursively | Learned that two trees are identical only when their values and both left and right subtrees match |
 | Balanced Binary Tree | Checking height difference between left and right subtrees | Learned that a tree is balanced when the height difference is at most 1 at every node and both subtrees are balanced |
+| Diameter of Binary Tree | Understanding how the longest path can pass through any node | Learned that diameter can be calculated using `leftHeight + rightHeight` while recursively calculating subtree heights |
+| Binary Tree Maximum Path Sum | Handling negative values and separating the path through a node from the value returned to its parent | Learned to use `max(0, left/right)` and maintain a global maximum while returning `root + max(left, right)` |
