@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 73
+- Problems Solved: 75
 - Current Topic: Binary Tree
 - Language: Python
 - Platform: Striver A2Z
@@ -86,6 +86,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 70 | Maximum Depth of Binary Tree | Binary Tree | 5 min | 2 | ✅ Solved |
 | 71 | Identical Binary Trees | Binary Tree | 8 min | 3 | ✅ Solved |
 | 72 | Balanced Binary Tree | Binary Tree | 10 min | 3 | ✅ Solved |
+| 73 | Diameter of Binary Tree | Binary Tree | 5 min | 2 | ✅ Solved |
+| 74 | Binary Tree Maximum Path Sum | Binary Tree | 8 min | 3 | ✅ Solved |
 
 
 🧠 Learning Journal
