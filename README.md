@@ -171,3 +171,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Balanced Binary Tree | Checking height difference between left and right subtrees | Learned that a tree is balanced when the height difference is at most 1 at every node and both subtrees are balanced |
 | Diameter of Binary Tree | Understanding how the longest path can pass through any node | Learned that diameter can be calculated using `leftHeight + rightHeight` while recursively calculating subtree heights |
 | Binary Tree Maximum Path Sum | Handling negative values and separating the path through a node from the value returned to its parent | Learned to use `max(0, left/right)` and maintain a global maximum while returning `root + max(left, right)` |
+| Symmetric Binary Tree | Understanding mirror comparison between left and right subtrees | Learned that symmetry requires comparing `left.left` with `right.right` and `left.right` with `right.left` recursively |
