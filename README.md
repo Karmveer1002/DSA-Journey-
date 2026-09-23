@@ -90,6 +90,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 74 | Binary Tree Maximum Path Sum | Binary Tree | 8 min | 3 | ✅ Solved |
 | 75 | Symmetric Binary Tree | Binary Tree | 5 min | 2 | ✅ Solved |
 | 76 | Unique Binary Tree | Binary Tree | 4 min | 2 | ✅ Solved |
+| 77 | Construct Binary Tree from Preorder and Inorder Traversal | Binary Tree | 7 min | 3 | ✅ Solved |
+| 78 | Construct Binary Tree from Inorder and Postorder Traversal | Binary Tree | 2 min | 1 | ✅ Solved |
 
 🧠 Learning Journal
 
