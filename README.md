@@ -187,3 +187,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Construct Binary Tree from Inorder and Postorder Traversal | Understanding root selection from postorder and correctly slicing the left and right subtrees | Learned that `postorder[-1]` is the root, while its index in inorder determines the left and right subtree boundaries |
 | Search in BST | Understanding how BST property helps eliminate one subtree at every step | Learned that values smaller than the root are searched in the left subtree and larger values in the right subtree |
 | Floor and Ceil of BST | Understanding how to maintain floor and ceil candidates while traversing the BST | Learned that values smaller than the key update floor and values larger than the key update ceil |
+| Insert into BST | Understanding where a new value should be placed while preserving BST properties | Learned to follow the BST search path and attach the new node at the correct null position |
