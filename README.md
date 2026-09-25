@@ -3,8 +3,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 78
-- Current Topic: Binary Tree
+- Problems Solved: 85
+- Current Topic: Binary Search Tree
 - Language: Python
 - Platform: Striver A2Z
            
@@ -19,7 +19,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 4 | Reverse Array | Arrays | 30 min | 2 | ✅ Solved |
 | 5 | Left Rotate Array by One | Arrays | 1 hr 20 min | 4 | ✅ Solved |
 | 6 | Move Zeroes | Arrays | 3 hrs | 6 | ✅ Solved |
-| 7	| Rotate Array by K	| Arrays	| 2 hrs	| 8	| ✅ Solved |
+| 7 | Rotate Array by K | Arrays	| 2 hrs| 8	| ✅ Solved |
 | 8 | Leaders in an Array | Arrays | 1 hr | 5 | ✅ Solved |
 | 9 | Maximum Subarray Sum (Kadane's Algorithm) | Arrays | 1hr | 3 | ✅ Solved |
 | 10 | Next Permutation | Arrays | 1 hr | 4 | ✅ Solved |
@@ -92,6 +92,9 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 76 | Unique Binary Tree | Binary Tree | 4 min | 2 | ✅ Solved |
 | 77 | Construct Binary Tree from Preorder and Inorder Traversal | Binary Tree | 7 min | 3 | ✅ Solved |
 | 78 | Construct Binary Tree from Inorder and Postorder Traversal | Binary Tree | 2 min | 1 | ✅ Solved |
+| 79 | Search in BST | Binary Search Tree | 8 min | 3 | ✅ Solved |
+| 80 | Floor and Ceil of BST | Binary Search Tree | 15 min | 4 | ✅ Solved |
+| 81 | Insert into BST | Binary Search Tree | 5 min | 2 | ✅ Solved |
 
 🧠 Learning Journal
 
