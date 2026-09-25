@@ -97,6 +97,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 81 | Insert into BST | Binary Search Tree | 5 min | 2 | ✅ Solved |
 | 82 | Delete Node in BST | Binary Search Tree | 5 min | 2 | ✅ Solved |
 | 83 | Kth Smallest and Largest in BST | Binary Search Tree | 15 min | 5 | ✅ Solved |
+| 84 | Validate BST | Binary Search Tree | 4 min | 1 | ✅ Solved |
 
 
 
