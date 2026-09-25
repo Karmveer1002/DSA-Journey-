@@ -95,6 +95,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 79 | Search in BST | Binary Search Tree | 8 min | 3 | ✅ Solved |
 | 80 | Floor and Ceil of BST | Binary Search Tree | 15 min | 4 | ✅ Solved |
 | 81 | Insert into BST | Binary Search Tree | 5 min | 2 | ✅ Solved |
+| 82 | Delete Node in BST | Binary Search Tree | 5 min | 2 | ✅ Solved |
+
 
 🧠 Learning Journal
 
