@@ -189,3 +189,5 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Floor and Ceil of BST | Understanding how to maintain floor and ceil candidates while traversing the BST | Learned that values smaller than the key update floor and values larger than the key update ceil |
 | Insert into BST | Understanding where a new value should be placed while preserving BST properties | Learned to follow the BST search path and attach the new node at the correct null position |
 | Delete Node in BST | Handling deletion for leaf nodes, nodes with one child, and nodes with two children | Learned to use the inorder successor when deleting a node with two children while preserving BST properties |
+| Kth Smallest and Largest in BST | Understanding the relationship between BST inorder traversal and sorted order | Learned that inorder traversal gives ascending order and reverse inorder gives descending order |
+| Validate BST | Understanding why checking only parent-child relationships is not enough | Learned to validate every node using minimum and maximum bounds inherited from its ancestors |
