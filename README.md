@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 85
+- Problems Solved: 85     
 - Current Topic: Binary Search Tree
 - Language: Python
 - Platform: Striver A2Z     
