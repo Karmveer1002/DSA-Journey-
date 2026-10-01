@@ -195,3 +195,5 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Delete Node in BST | Handling deletion for leaf nodes, nodes with one child, and nodes with two children | Learned to use the inorder successor when deleting a node with two children while preserving BST properties |
 | Kth Smallest and Largest in BST | Understanding the relationship between BST inorder traversal and sorted order | Learned that inorder traversal gives ascending order and reverse inorder gives descending order |
 | Validate BST | Understanding why checking only parent-child relationships is not enough | Learned to validate every node using minimum and maximum bounds inherited from its ancestors |
+| Linked List Traversal | Understanding how to start from head and move through each node using the next pointer | Learned that traversal continues from head to NULL by repeatedly moving `curr = curr.next` |
+| Delete Head of Linked List | Understanding how to remove the first node by shifting the head to the next node | Learned that deleting the head requires setting `head = head.next` and handling an empty list |
