@@ -100,7 +100,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 84 | Validate BST | Binary Search Tree | 4 min | 1 | ✅ Solved |
 | 85 | Linked List Traversal | Linked List | 5 min | 1 | ✅ Solved |
 | 86 | Delete Head of Linked List | Linked List | 5 min | 3 | ✅ Solved |
-
+| 87 | Delete Node with Value X | Linked List | 7 min | 3 | ✅ Solved |
+| 88 | Delete Tail of Linked List | Linked List | 5 min | 1 | ✅ Solved |
 
 
 🧠 Learning Journal
