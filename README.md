@@ -197,3 +197,5 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Validate BST | Understanding why checking only parent-child relationships is not enough | Learned to validate every node using minimum and maximum bounds inherited from its ancestors |
 | Linked List Traversal | Understanding how to start from head and move through each node using the next pointer | Learned that traversal continues from head to NULL by repeatedly moving `curr = curr.next` |
 | Delete Head of Linked List | Understanding how to remove the first node by shifting the head to the next node | Learned that deleting the head requires setting `head = head.next` and handling an empty list |
+| Delete Node with Value X | Tracking the previous node and connecting it directly to the node after the target | Learned that `prev.next = curr.next` removes the target node from the linked list |
+| Delete Tail of Linked List | Finding the second-last node before removing the last node | Learned that the second-last node's `next` must be set to `None` to delete the tail |
