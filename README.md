@@ -199,3 +199,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Delete Head of Linked List | Understanding how to remove the first node by shifting the head to the next node | Learned that deleting the head requires setting `head = head.next` and handling an empty list |
 | Delete Node with Value X | Tracking the previous node and connecting it directly to the node after the target | Learned that `prev.next = curr.next` removes the target node from the linked list |
 | Delete Tail of Linked List | Finding the second-last node before removing the last node | Learned that the second-last node's `next` must be set to `None` to delete the tail |
+| Delete Kth Element of Linked List | Finding the kth node while keeping track of its previous node and handling deletion of the head | Learned that the kth node can be removed by connecting its previous node directly to its next node |
