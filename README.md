@@ -3,7 +3,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 
 📊 SUMMARY
 
-- Problems Solved: 90
+- Problems Solved: 95
 - Current Topic: LinkedList
 - Language: Python
 - Platform: Striver A2Z     
