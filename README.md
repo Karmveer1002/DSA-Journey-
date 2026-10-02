@@ -105,6 +105,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 89 | Delete Kth Element of Linked List | Linked List | 7 min | 3 | ✅ Solved |
 | 90 | Insert at Head of Linked List | Linked List | 3 min | 1 | ✅ Solved |
 | 91 | Insert at Tail of Linked List | Linked List | 3 min | 1 | ✅ Solved |
+| 92 | Insert Before Value X | Linked List | 3 min | 1 | ✅ Solved |
+| 93 | Insert at Kth Position in Linked List | Linked List | 3 min | 1 | ✅ Solved |
 
 
 🧠 Learning Journal
