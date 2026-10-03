@@ -208,3 +208,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Delete Kth Element of Linked List | Finding the kth node while keeping track of its previous node and handling deletion of the head | Learned that the kth node can be removed by connecting its previous node directly to its next node |
 | Insert at Head of Linked List | Understanding how to create a new node and place it before the current head | Learned that `newNode.next` should point to the current head and then the new node becomes the head |
 | Insert at Tail of Linked List | Traversing to the last node before connecting the new node | Learned that the last node's `next` should point to the new node |
+| Insert Before Value X | Tracking the previous node to insert a new node before the first occurrence of X | Learned to connect `newNode` between `prev` and the target node |
