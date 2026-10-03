@@ -210,3 +210,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Insert at Tail of Linked List | Traversing to the last node before connecting the new node | Learned that the last node's `next` should point to the new node |
 | Insert Before Value X | Tracking the previous node to insert a new node before the first occurrence of X | Learned to connect `newNode` between `prev` and the target node |
 | Insert at Kth Position in Linked List | Finding the node just before the required position and correctly reconnecting pointers | Learned to insert the new node between the `(k-1)`th and kth nodes |
+| Find Length of Linked List | Counting every node while traversing from head to NULL | Learned to maintain a counter and increment it for each visited node |
