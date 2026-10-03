@@ -211,3 +211,4 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | Insert Before Value X | Tracking the previous node to insert a new node before the first occurrence of X | Learned to connect `newNode` between `prev` and the target node |
 | Insert at Kth Position in Linked List | Finding the node just before the required position and correctly reconnecting pointers | Learned to insert the new node between the `(k-1)`th and kth nodes |
 | Find Length of Linked List | Counting every node while traversing from head to NULL | Learned to maintain a counter and increment it for each visited node |
+| Search an Element in Linked List | Traversing each node and comparing its value with the target | Learned that linked list searching requires sequential traversal until the value is found or NULL is reached |
