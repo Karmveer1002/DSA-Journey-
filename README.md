@@ -110,7 +110,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 94 | Find Length of Linked List | Linked List | 5 min | 2 | ✅ Solved |
 | 95 | Search an Element in Linked List | Linked List | 5 min | 2 | ✅ Solved |
 | 96 | Delete Head of Doubly Linked List | Doubly Linked List | 5 min | 2 | ✅ Solved |
-
+| 97 | Delete Tail of Doubly Linked List | Doubly Linked List | 5 min | 2 | ✅ Solved |
 
 
 
