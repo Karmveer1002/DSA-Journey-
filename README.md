@@ -112,7 +112,8 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 | 96 | Delete Head of Doubly Linked List | Doubly Linked List | 5 min | 2 | ✅ Solved |
 | 97 | Delete Tail of Doubly Linked List | Doubly Linked List | 5 min | 2 | ✅ Solved |
 | 98 | Delete Kth Element of Doubly Linked List | Doubly Linked List | 5 min | 3 | ✅ Solved |
-
+| 99 | Delete Given Node in Doubly Linked List | Doubly Linked List | 3 min | 1 | ✅ Solved |
+| 100 | Insert at Head of Doubly Linked List | Doubly Linked List | 5 min | 2 | ✅ Solved |
 
 
 🧠 Learning Journal
