@@ -9,7 +9,7 @@ A structured repository of Python solutions to Striver's A2Z DSA Sheet, showcasi
 - Platform: Striver A2Z     
                 
         
-📊 DSA Progress Tracker         
+📊 DSA Progress Tracker              
 
 | # | Problem Name | Topic | Time Taken | Attempts | Status |      
 |:-:|--------------|:-----:|:----------:|:--------:|:------:|
